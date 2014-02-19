@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ImageFun</string>
+    <string name="action_gray_scale">Gray Scale</string>
+    <string name="action_red_filter">Red Filter</string>
+    <string name="action_green_filter">Green Filter</string>
+    <string name="action_blue_filter">Blue Filter</string>
+    <string name="action_watermark">Add Watermark</string>
+    <string name="choose_image_description">Choose Image</string>
+    <string name="save_image_description">Save Image</string>
+    <string name="share_image_description">Share Image</string>
+    <string name="selected_image_description">Selected Image</string>
+
+</resources>

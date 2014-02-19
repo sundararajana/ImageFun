@@ -1,0 +1,33 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <item
+        android:id="@+id/action_gray_scale"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_gray_scale"/>
+
+    <item
+        android:id="@+id/action_red_filter"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_red_filter"/>
+    
+    <item
+        android:id="@+id/action_green_filter"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_green_filter"/>
+    
+    <item
+        android:id="@+id/action_blue_filter"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_blue_filter"/>
+    
+    <item
+        android:id="@+id/action_watermark"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_watermark"/>
+    
+</menu>

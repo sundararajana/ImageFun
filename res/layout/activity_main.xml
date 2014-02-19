@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <ImageButton
+        android:id="@+id/chooseButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:contentDescription="@string/choose_image_description"
+        android:onClick="onChooseImage"
+        android:src="@android:drawable/ic_menu_gallery" />
+
+    <ImageButton
+        android:id="@+id/saveButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/chooseButton"
+        android:layout_toRightOf="@+id/chooseButton"
+        android:contentDescription="@string/save_image_description"
+        android:onClick="onSaveImage"
+        android:src="@android:drawable/ic_menu_save" />
+
+    <ImageButton
+        android:id="@+id/shareButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/chooseButton"
+        android:layout_toRightOf="@+id/saveButton"
+        android:contentDescription="@string/share_image_description"
+        android:onClick="onShareImage"
+        android:src="@android:drawable/ic_menu_share" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/chooseButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="4dp"
+        android:contentDescription="@string/selected_image_description" />
+
+</RelativeLayout>
